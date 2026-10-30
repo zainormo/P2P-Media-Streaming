@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; padding: 24px 5%; }
+.tile { background: #181818; border-radius: 6px; padding: 24px; text-decoration: none; min-height: 140px; }
+.tile:hover { background: #262626; }
+.tile p { color: #b3b3b3; margin-top: 8px; font-size: .9rem; }

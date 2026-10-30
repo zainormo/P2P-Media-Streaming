@@ -1,0 +1,22 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #000; color: #fff; font-family: 'Helvetica Neue', Arial, sans-serif; }
+a { color: inherit; }
+
+.page { min-height: 100vh; position: relative; display: flex; flex-direction: column; }
+.bar { display: flex; justify-content: space-between; align-items: center; padding: 24px 5%; z-index: 2; }
+.logo { color: #e50914; font-size: 2.2rem; font-weight: 900; letter-spacing: 2px; text-decoration: none; }
+
+input {
+  padding: 18px 16px;
+  background: rgba(22, 22, 22, .7);
+  border: 1px solid rgba(128, 128, 128, .7);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+}
+input:focus { outline: 2px solid #fff; }
+
+.btn { background: #e50914; color: #fff; border: 0; border-radius: 4px; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+.btn:hover { background: #c11119; }
+.btn-sm { padding: 8px 16px; }
+.btn-lg { padding: 16px 28px; font-size: 1.2rem; }

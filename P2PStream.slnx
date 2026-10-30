@@ -1,5 +1,7 @@
 <Solution>
-  <Project Path="Common/Common.csproj" />
-  <Project Path="Peer/Peer.csproj" />
-  <Project Path="Tracker/Tracker.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/Common/Common.csproj" />
+    <Project Path="src/Tracker/Tracker.csproj" />
+    <Project Path="src/Peer/Peer.csproj" />
+  </Folder>
 </Solution>

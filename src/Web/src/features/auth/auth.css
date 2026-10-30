@@ -1,0 +1,7 @@
+.auth { background: radial-gradient(circle at 50% 0%, #2a0a10, #000 60%); }
+.card { margin: auto; width: min(450px, 92vw); padding: 48px 56px; background: rgba(0,0,0,.75); border-radius: 6px; z-index: 2; }
+.card h2 { font-size: 2rem; margin-bottom: 24px; }
+.card form { display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; }
+.muted { color: #b3b3b3; }
+.muted a { color: #fff; }
+.error { color: #ffa00a; font-size: .9rem; }
